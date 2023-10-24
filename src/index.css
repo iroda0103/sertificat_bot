@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 793.92px;
+    width: 1122.24;
+}
+.sertificat{
+    /* max-width:1122.22px;
+    width: 100%;
+    margin: 0 auto; */
+    position: relative;
+}
+
+.photo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+    /* height: 793.92px; */
+}
+.container{
+    max-width:1122.22px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main{
+   padding: 50px 250px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+h1{
+  
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
